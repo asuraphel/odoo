@@ -31,6 +31,9 @@ and delete.
 If no group is specified, the access control applies to all users, otherwise
 it only applies to the members of the given group.
 
+To restrict access to all users create an access rule with no group with all 
+permissions unticked. 
+
 Available permissions are creation (``perm_create``), searching and reading
 (``perm_read``), updating existing records (``perm_write``) and deleting
 existing records (``perm_unlink``)
